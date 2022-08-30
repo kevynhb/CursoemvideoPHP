@@ -1,11 +1,9 @@
 <?php 
 // Aplicar 10% de desconto ao preço de um produto
 
-    $sorvete = $_GET("p");
+    $valor = $_GET["p"];
 
-    $desconto = $sorvete - ($sorvete*10/100);
+    $valor -= ($valor*10/100);
 
-    //echo "Valor do sorvete é $sorvete";
-
-    echo "Valor do sorvete com desconto $desconto";
+    echo "Valor do produto com desconto é: ", number_format($valor, 2);
 ?>
