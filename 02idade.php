@@ -7,13 +7,13 @@
 <body>
     <?php 
 
-        $nome = $__GET["nome"];
-        $ano = $__GET["ano"];
-        $sexo = $__GET["sexo"];
+        $nome = $_GET["nome"]; 
+        $ano = $_GET["ano"];
+        $sexo = $_GET["sexo"];
 
         $idade = date("Y") - $ano;
 
-        echo "$nome tem $idade anos";
+        echo "$nome é $sexo e tem $idade anos";
 
     ?>
 
