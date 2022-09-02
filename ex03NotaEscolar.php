@@ -1,5 +1,5 @@
 <?php 
-// Falar se o aluno foi aprovado ou não, com operador únitario
+// Falar se o aluno foi aprovado ou não, com operador Ternário
 
     $nota1 = $_GET["nt1"];
     $nota2 = $_GET["nt2"];

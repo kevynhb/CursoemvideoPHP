@@ -10,7 +10,7 @@ Operadores Relacionais
     Igual                   $a == $b    Se o contéudo é igual
     Idêntico                $a === $b   Igual e do mesmo tipo
 
-Operador Unário
+Operador Ternário
     expressão ? verdadeiro : falso
 
     $maior = $a > $b ? $a : $b
@@ -22,6 +22,6 @@ Operador Unário
     $op = $_GET["op"];
 
     $res = $op == 's' ? $a + $b : $a - $b; // sómente a letra 's' fara a soma, qualquer outra letra resultara em subtração
-    echo "O resultado é: $res"             // O operador únitario é para fazer comparações simples, é uma coisa ou outra.
+    echo "O resultado é: $res"             // O operador ternário é para fazer comparações simples, é uma coisa ou outra.
   
 ?>
