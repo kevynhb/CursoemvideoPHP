@@ -1,8 +1,3 @@
-<?php 
-
-
-?>
-
 <?= 'tag curta para rodar script php'?> 
 <? echo 'Este código está entre tags curtas, mas somente funcionará '.
             'se short_open_tag estiver ativo'; ?>
@@ -17,6 +12,10 @@
 
 <?php echo 'Nós omitimos a última tag de fechamento';
 
-#COMENTARIO ESTILO SHELL
+    #COMENTARIO ESTILO SHELL
 
-var_dump() // checa tipo da variável
+    $var = 2;
+
+    var_dump($var); // checa tipo da variável
+
+?>
