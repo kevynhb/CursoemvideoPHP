@@ -16,6 +16,10 @@
         echo "<h1>Testando novas funções <h1/>";
         ola();
         mostraValor(10);
+
+        // include_once; require_once; se já estiver carregado ele não carrega novamente, se não carregou,
+        // carrega a primeira vez o arquino no script php
+        
     ?>
 
 </body>
