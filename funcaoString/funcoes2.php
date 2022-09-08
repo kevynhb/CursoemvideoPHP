@@ -33,6 +33,21 @@ print("<br/>PHP encontrado $cont vezes");
 
 // Função substr: fatia a string
 $site = "Curso em vídeo";
-$sub = substr($site, 0, 5);
+$sub = substr($site, 0, 5); // começa na letra 0 e anda 5 letras
 echo "<br/>". $sub;
+
+// Função str_pad: faz uma string de tamanho 5, ocuapar um valor determinado, no caso 30.
+$name = "Kevyn";
+$novo = str_pad($name, 30, "#", STR_PAD_BOTH); // STR_PAD_LEFT AND RIGHT 
+echo "<br/> O espaço entre o nome é $novo esse";
+
+// Função str_repeat: repete quantas vezes for solicitado uma string.
+$txt = str_repeat(" PHP ", 5);
+echo "<br/>O texto gerado foi $txt <br/>";
+echo str_repeat("-", 100);
+
+// Função str_replace : Substitui uma palavra dentro da string
+$frase3 = "Gostumm de estudar Matemática"; 
+$novafrase = str_replace("Matemática", "PHP", $frase); //str_ireplace ignora maiúscula ou minúscula
+echo "<br/>$novafrase";
 
